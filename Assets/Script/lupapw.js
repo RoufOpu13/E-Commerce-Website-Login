@@ -14,7 +14,7 @@ document.getElementById('forgotPasswordForm').addEventListener('submit', functio
         emailError.style.display = 'block';
     } else {
         alert('Password sudah di riset, kami sudah mengirim password baru anda ke Email anda');
-        window.location.href = 'login.html';
+        window.location.href = 'Login.html';
 
     }
 });
