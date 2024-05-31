@@ -26,7 +26,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (username === 'roufopu13' && password === '12345') {
         alert('Login successful!');
-        window.location.href = 'Hehe.html';
+        window.location.href = 'hehe.html';
     } else {
         errorMessage.textContent = 'Username atau Password Anda salah!';
         errorMessage.style.display = 'block';

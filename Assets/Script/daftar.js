@@ -52,6 +52,6 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     if (valid) {
         alert('Registration successful');
-        window.location.href = 'Login.html';
+        window.location.href = 'index.html';
     }
 });
