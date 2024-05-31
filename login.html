@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Shanshop</title>
+    <link rel="shortcut icon" href="Assets/img/ShanshopLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/Style/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="pp">
+            <h2>LOGIN SHANSHOP</h2>
+            <img class="img" src="Assets/img/ShanshopLogo.png" alt="Shanshop" width="90px" height="90">
+        </div>
+        <form id="loginForm">
+            <div class="form-group">
+                <label class="user" for="username">Username:</label>
+                <input type="text" id="username" name="username" >
+                <div id="username-error" class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label class="user" for="password">Password:</label>
+                <input type="password" id="password" name="password" >
+                <div id="password-error" class="error-message"></div>
+            </div>
+            <p id="error-message" class="error-message"></p>
+            <button class="user-b" type="submit">LOG IN</button>
+        </form>
+            <div class="pp" align= "Left">
+                <small><a class="user" href="lupapw.html">Lupa Password</a></small>
+            </div>
+        <br>
+            <div>
+            <small class="seru" >Belum Punya Akun? <a class="user" href="daftar.html">Daftar Sekarang</a></small>
+            </div>
+    </div>
+    <script src="Assets/Script/login.js"></script>
+</body>
+</html>
